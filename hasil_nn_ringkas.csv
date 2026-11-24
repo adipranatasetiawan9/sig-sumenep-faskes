@@ -1,0 +1,5 @@
+wilayah,kategori,n,d_obs_km,d_exp_km,NNR,z,p,pola
+Seluruh kabupaten,Puskesmas,28,14.425,4.313,3.344,23.733,0.0,MENYEBAR (dispersed)
+Seluruh kabupaten,Semua fasilitas,30,13.489,4.167,3.237,23.443,0.0,MENYEBAR (dispersed)
+Daratan Madura saja,Puskesmas,19,5.407,3.876,1.395,3.293,0.001,MENYEBAR (dispersed)
+Daratan Madura saja,Semua fasilitas,21,4.929,3.687,1.337,2.953,0.0031,MENYEBAR (dispersed)

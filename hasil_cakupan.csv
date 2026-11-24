@@ -1,0 +1,6 @@
+kategori,radius_km,persen_tercakup,persen_tidak_tercakup
+Puskesmas,2,13.15,86.85
+Puskesmas,5,53.81,46.19
+Rumah Sakit,20,44.35,55.65
+Service area (pendekatan lingkaran),1.0,3.88,96.12
+Puskesmas + RS,5,53.81,46.19

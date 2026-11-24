@@ -1,0 +1,31 @@
+nama,tetangga_terdekat,jarak_km
+Puskesmas Pamolokan,RSUD Dr. H. Moh. Anwar,1.687
+Puskesmas Pandian,BHC Baghraf Health Care,1.431
+Puskesmas Kalianget,RSUD Dr. H. Moh. Anwar,4.745
+Puskesmas Manding,Puskesmas Pamolokan,4.649
+Puskesmas Talango,Puskesmas Kalianget,6.441
+Puskesmas Bluto,Puskesmas Saronggi,3.211
+Puskesmas Saronggi,Puskesmas Bluto,3.211
+Puskesmas Lenteng,Puskesmas Batuan,5.667
+Puskesmas Giliginting,Puskesmas Bluto,13.456
+Puskesmas Pragaan,Puskesmas Guluk-Guluk,6.293
+Puskesmas Pasongsongan,Puskesmas Ambunten,8.707
+Puskesmas Dasuk,Puskesmas Ambunten,6.89
+Puskesmas Rubaru,Puskesmas Ambunten,7.419
+Puskesmas Batang-Batang,Puskesmas Gapura,7.078
+Puskesmas Batuputih,Puskesmas Manding,7.561
+Puskesmas Dungkek,Puskesmas Batang-Batang,11.026
+Puskesmas Gapura,Puskesmas Batang-Batang,7.078
+Puskesmas Guluk-Guluk,Puskesmas Ganding,2.427
+Puskesmas Batuan,BHC Baghraf Health Care,2.001
+Puskesmas Gayam,Puskesmas Nonggunong,10.96
+Puskesmas Nonggunong,Puskesmas Gayam,10.96
+Puskesmas Raas,Puskesmas Gayam,31.424
+Puskesmas Masalembu,Puskesmas Batuputih,159.346
+Puskesmas Arjasa,Puskesmas Kangayan,30.862
+Puskesmas Kangayan,Puskesmas Sapeken,18.859
+Puskesmas Ambunten,Puskesmas Dasuk,6.89
+Puskesmas Ganding,Puskesmas Guluk-Guluk,2.427
+RSUD Dr. H. Moh. Anwar,Puskesmas Pamolokan,1.687
+BHC Baghraf Health Care,Puskesmas Pandian,1.431
+Puskesmas Sapeken,Puskesmas Kangayan,18.859

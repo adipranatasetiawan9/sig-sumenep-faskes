@@ -1,0 +1,71 @@
+=== 1. GABUNG DATA FASILITAS ===
+Dari OSM: 5 | Manual (Google Maps): 25
+Luas wilayah dari poligon (km2): 2083.6
+PERHATIAN: memakai luas hitungan, bukan angka BPS (isi LUAS_RESMI_KM2 di atas skrip).
+Total fasilitas gabungan: 30
+- Puskesmas : 28
+- Rumah Sakit : 2
+
+=== 2. TABEL PER KECAMATAN (seperti Tabel 3 jurnal) ===
+  Ambunten       puskesmas=1  RS=0  semua=1  penduduk=  per100rb=
+  Arjasa         puskesmas=1  RS=0  semua=1  penduduk=  per100rb=
+  Batang Batang  puskesmas=1  RS=0  semua=1  penduduk=  per100rb=
+  Batuan         puskesmas=1  RS=1  semua=2  penduduk=  per100rb=
+  Batuputih      puskesmas=1  RS=0  semua=1  penduduk=  per100rb=
+  Bluto          puskesmas=1  RS=0  semua=1  penduduk=  per100rb=
+  Dasuk          puskesmas=1  RS=0  semua=1  penduduk=  per100rb=
+  Dungkek        puskesmas=1  RS=0  semua=1  penduduk=  per100rb=
+  Ganding        puskesmas=1  RS=0  semua=1  penduduk=  per100rb=
+  Gapura         puskesmas=1  RS=0  semua=1  penduduk=  per100rb=
+  Gayam          puskesmas=1  RS=0  semua=1  penduduk=  per100rb=
+  Giliginting    puskesmas=1  RS=0  semua=1  penduduk=  per100rb=
+  Guluk-Guluk    puskesmas=1  RS=0  semua=1  penduduk=  per100rb=
+  Kalianget      puskesmas=1  RS=0  semua=1  penduduk=  per100rb=
+  Kangayan       puskesmas=1  RS=0  semua=1  penduduk=  per100rb=
+  Kota Sumenep   puskesmas=2  RS=1  semua=3  penduduk=  per100rb=
+  Lenteng        puskesmas=1  RS=0  semua=1  penduduk=  per100rb=
+  Manding        puskesmas=1  RS=0  semua=1  penduduk=  per100rb=
+  Masalembu      puskesmas=1  RS=0  semua=1  penduduk=  per100rb=
+  Nonggunong     puskesmas=1  RS=0  semua=1  penduduk=  per100rb=
+  Pasongsongan   puskesmas=1  RS=0  semua=1  penduduk=  per100rb=
+  Pragaan        puskesmas=1  RS=0  semua=1  penduduk=  per100rb=
+  Ra'as          puskesmas=1  RS=0  semua=1  penduduk=  per100rb=
+  Rubaru         puskesmas=1  RS=0  semua=1  penduduk=  per100rb=
+  Sapeken        puskesmas=1  RS=0  semua=1  penduduk=  per100rb=
+  Saronggi       puskesmas=1  RS=0  semua=1  penduduk=  per100rb=
+  Talango        puskesmas=1  RS=0  semua=1  penduduk=  per100rb=
+
+=== 3. NEAREST NEIGHBOR (seperti Gambar 5 jurnal) ===
+Poligon terbesar (daratan Madura bagian Sumenep) luas km2: 1142.0
+
+-- Wilayah: Seluruh kabupaten (luas 2083.6 km2)
+   Puskesmas        n=28  d_obs=14.43 km  d_exp=4.31 km  NNR=3.344  z=23.733  p=0.0000  -> MENYEBAR (dispersed)
+   Rumah Sakit      n=2 : terlalu sedikit titik untuk uji statistik
+   Semua fasilitas  n=30  d_obs=13.49 km  d_exp=4.17 km  NNR=3.237  z=23.443  p=0.0000  -> MENYEBAR (dispersed)
+
+-- Wilayah: Daratan Madura saja (luas 1142.0 km2)
+   Puskesmas        n=19  d_obs=5.41 km  d_exp=3.88 km  NNR=1.395  z=3.293  p=0.0010  -> MENYEBAR (dispersed)
+   Rumah Sakit      n=2 : terlalu sedikit titik untuk uji statistik
+   Semua fasilitas  n=21  d_obs=4.93 km  d_exp=3.69 km  NNR=1.337  z=2.953  p=0.0031  -> MENYEBAR (dispersed)
+
+5 fasilitas paling terpencil (jarak ke tetangga terdekat):
+   - Puskesmas Masalembu -> Puskesmas Batuputih : 159.35 km
+   - Puskesmas Raas -> Puskesmas Gayam : 31.42 km
+   - Puskesmas Arjasa -> Puskesmas Kangayan : 30.86 km
+   - Puskesmas Kangayan -> Puskesmas Sapeken : 18.86 km
+   - Puskesmas Sapeken -> Puskesmas Kangayan : 18.86 km
+
+=== 4. BUFFER DAN PERSEN CAKUPAN WILAYAH (seperti Gambar 6, 7 dan 8) ===
+Menghitung titik-titik daratan (grid 1.0 km)...
+Titik daratan terhitung: 2061 (perkiraan luas 2061 km2)
+  Puskesmas                            radius 2 km: tercakup 13.1% | tidak tercakup 86.9%
+  Puskesmas                            radius 5 km: tercakup 53.8% | tidak tercakup 46.2%
+  Rumah Sakit                          radius 20 km: tercakup 44.3% | tidak tercakup 55.7%
+  Service area (pendekatan lingkaran)  radius 1 km: tercakup 3.9% | tidak tercakup 96.1%
+  Puskesmas + RS, radius 5 km: tercakup 53.8%
+
+CATATAN KETERBATASAN:
+- Buffer dan service area berupa lingkaran garis lurus, bukan jarak lewat jalan.
+- Radius buffer mengikuti jurnal acuan (standar Yordania) sebagai pembanding.
+- Persen cakupan dihitung dari titik grid 1.0 km di atas daratan.
+- Data fasilitas masih dari OSM dan Google Maps, belum data resmi Dinkes.

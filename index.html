@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aksesibilitas Fasilitas Kesehatan Kabupaten Sumenep</title>
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: #f2f5f9; color: #1d2733; line-height: 1.55; }
+header { background: #1F3A5F; color: #fff; padding: 22px 16px; }
+header h1 { margin: 0 0 4px; font-size: 20px; line-height: 1.3; }
+header p { margin: 0; font-size: 13.5px; opacity: 0.9; }
+main { max-width: 860px; margin: 0 auto; padding: 14px; }
+.kartu { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 6px 0 14px; }
+.angka { background: #fff; border-radius: 10px; padding: 12px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+.angka b { display: block; font-size: 26px; color: #1F3A5F; }
+.angka span { font-size: 12.5px; color: #55606e; }
+.tombol { display: block; text-align: center; background: #1a9850; color: #fff; text-decoration: none; padding: 14px; border-radius: 10px; font-weight: 600; font-size: 16px; margin-bottom: 18px; }
+section { background: #fff; border-radius: 10px; padding: 14px; margin-bottom: 14px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+h2 { margin: 0 0 8px; font-size: 16px; color: #1F3A5F; }
+.geser { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 12.5px; min-width: 520px; }
+th { background: #1F3A5F; color: #fff; text-align: left; padding: 6px; }
+td { padding: 6px; border-bottom: 1px solid #e3e8ee; vertical-align: top; }
+tr:nth-child(even) td { background: #f7f9fc; }
+ul { margin: 6px 0 0; padding-left: 20px; }
+li { margin: 3px 0; }
+.catatan { background: #fff8e6; border-left: 4px solid #f0ad4e; }
+footer { text-align: center; font-size: 12px; color: #6a7685; padding: 8px 14px 24px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Analisis Aksesibilitas Fasilitas Kesehatan di Kabupaten Sumenep</h1>
+  <p>Tugas Sistem Informasi Geografis Lanjut. Acuan metode: Obeidat &amp; Alourd (2024), Int. J. for Equity in Health 23:52 (doi:10.1186/s12939-024-02120-8).</p>
+</header>
+<main>
+  <div class="kartu">
+    <div class="angka"><b>30</b><span>Total fasilitas</span></div>
+    <div class="angka"><b>28</b><span>Puskesmas</span></div>
+    <div class="angka"><b>2</b><span>Rumah sakit</span></div>
+    <div class="angka"><b>0</b><span>Klinik/lainnya</span></div>
+  </div>
+
+  <a class="tombol" href="peta_sumenep.html">Buka Peta Interaktif</a>
+  <a class="tombol" style="background:#1F3A5F" href="proses_buffer.html">Lihat Proses Buffer Langkah demi Langkah</a>
+  <a class="tombol" style="background:#7b3294" href="galeri_peta.html">Galeri Peta (mengikuti jurnal)</a>
+
+  <section>
+    <h2>1. Tabel per Kecamatan</h2>
+    <div class="geser"><table><tr><th>Kecamatan</th><th>Puskesmas</th><th>RS</th><th>Semua</th><th>Penduduk</th><th>Puskesmas/100rb</th></tr>
+<tr><td>Ambunten</td><td>1</td><td>0</td><td>1</td><td>-</td><td>-</td></tr>
+<tr><td>Arjasa</td><td>1</td><td>0</td><td>1</td><td>-</td><td>-</td></tr>
+<tr><td>Batang Batang</td><td>1</td><td>0</td><td>1</td><td>-</td><td>-</td></tr>
+<tr><td>Batuan</td><td>1</td><td>1</td><td>2</td><td>-</td><td>-</td></tr>
+<tr><td>Batuputih</td><td>1</td><td>0</td><td>1</td><td>-</td><td>-</td></tr>
+<tr><td>Bluto</td><td>1</td><td>0</td><td>1</td><td>-</td><td>-</td></tr>
+<tr><td>Dasuk</td><td>1</td><td>0</td><td>1</td><td>-</td><td>-</td></tr>
+<tr><td>Dungkek</td><td>1</td><td>0</td><td>1</td><td>-</td><td>-</td></tr>
+<tr><td>Ganding</td><td>1</td><td>0</td><td>1</td><td>-</td><td>-</td></tr>
+<tr><td>Gapura</td><td>1</td><td>0</td><td>1</td><td>-</td><td>-</td></tr>
+<tr><td>Gayam</td><td>1</td><td>0</td><td>1</td><td>-</td><td>-</td></tr>
+<tr><td>Giliginting</td><td>1</td><td>0</td><td>1</td><td>-</td><td>-</td></tr>
+<tr><td>Guluk-Guluk</td><td>1</td><td>0</td><td>1</td><td>-</td><td>-</td></tr>
+<tr><td>Kalianget</td><td>1</td><td>0</td><td>1</td><td>-</td><td>-</td></tr>
+<tr><td>Kangayan</td><td>1</td><td>0</td><td>1</td><td>-</td><td>-</td></tr>
+<tr><td>Kota Sumenep</td><td>2</td><td>1</td><td>3</td><td>-</td><td>-</td></tr>
+<tr><td>Lenteng</td><td>1</td><td>0</td><td>1</td><td>-</td><td>-</td></tr>
+<tr><td>Manding</td><td>1</td><td>0</td><td>1</td><td>-</td><td>-</td></tr>
+<tr><td>Masalembu</td><td>1</td><td>0</td><td>1</td><td>-</td><td>-</td></tr>
+<tr><td>Nonggunong</td><td>1</td><td>0</td><td>1</td><td>-</td><td>-</td></tr>
+<tr><td>Pasongsongan</td><td>1</td><td>0</td><td>1</td><td>-</td><td>-</td></tr>
+<tr><td>Pragaan</td><td>1</td><td>0</td><td>1</td><td>-</td><td>-</td></tr>
+<tr><td>Ra&#x27;as</td><td>1</td><td>0</td><td>1</td><td>-</td><td>-</td></tr>
+<tr><td>Rubaru</td><td>1</td><td>0</td><td>1</td><td>-</td><td>-</td></tr>
+<tr><td>Sapeken</td><td>1</td><td>0</td><td>1</td><td>-</td><td>-</td></tr>
+<tr><td>Saronggi</td><td>1</td><td>0</td><td>1</td><td>-</td><td>-</td></tr>
+<tr><td>Talango</td><td>1</td><td>0</td><td>1</td><td>-</td><td>-</td></tr>
+</table></div>
+  </section>
+
+  <section>
+    <h2>2. Nearest Neighbor</h2>
+    <div class="geser"><table><tr><th>Wilayah</th><th>Kategori</th><th>n</th><th>d obs (km)</th><th>d harapan (km)</th><th>NNR</th><th>z</th><th>p</th><th>Pola</th></tr>
+<tr><td>Seluruh kabupaten</td><td>Puskesmas</td><td>28</td><td>14.425</td><td>4.313</td><td>3.344</td><td>23.733</td><td>0.0</td><td>MENYEBAR (dispersed)</td></tr>
+<tr><td>Seluruh kabupaten</td><td>Semua fasilitas</td><td>30</td><td>13.489</td><td>4.167</td><td>3.237</td><td>23.443</td><td>0.0</td><td>MENYEBAR (dispersed)</td></tr>
+<tr><td>Daratan Madura saja</td><td>Puskesmas</td><td>19</td><td>5.407</td><td>3.876</td><td>1.395</td><td>3.293</td><td>0.001</td><td>MENYEBAR (dispersed)</td></tr>
+<tr><td>Daratan Madura saja</td><td>Semua fasilitas</td><td>21</td><td>4.929</td><td>3.687</td><td>1.337</td><td>2.953</td><td>0.0031</td><td>MENYEBAR (dispersed)</td></tr>
+</table></div>
+    <p style="font-size:12.5px;margin:8px 0 0">NNR di bawah 1 berarti mengelompok, sekitar 1 berarti acak, di atas 1 berarti menyebar. Hasil &quot;seluruh kabupaten&quot; terpengaruh jarak Pulau Masalembu yang sangat jauh, sehingga hasil &quot;daratan Madura&quot; lebih mudah dibandingkan dengan jurnal acuan.</p>
+  </section>
+
+  <section>
+    <h2>3. Persen Cakupan Wilayah (Buffer)</h2>
+    <div class="geser"><table><tr><th>Kategori</th><th>Radius (km)</th><th>Tercakup (%)</th><th>Tidak tercakup (%)</th></tr>
+<tr><td>Puskesmas</td><td>2</td><td>13.15</td><td>86.85</td></tr>
+<tr><td>Puskesmas</td><td>5</td><td>53.81</td><td>46.19</td></tr>
+<tr><td>Rumah Sakit</td><td>20</td><td>44.35</td><td>55.65</td></tr>
+<tr><td>Service area (pendekatan lingkaran)</td><td>1.0</td><td>3.88</td><td>96.12</td></tr>
+<tr><td>Puskesmas + RS</td><td>5</td><td>53.81</td><td>46.19</td></tr>
+</table></div>
+  </section>
+
+  <section class="catatan">
+    <h2>Catatan Keterbatasan</h2>
+    <ul>
+      <li>Buffer dan service area berupa lingkaran garis lurus, belum jarak lewat jalan.</li>
+      <li>Radius buffer mengikuti jurnal acuan (standar Yordania) sebagai pembanding, belum standar Indonesia.</li>
+      <li>Data fasilitas dari OpenStreetMap dan Google Maps, belum data resmi Dinas Kesehatan. Pustu dan poskesdes belum dimasukkan, sehingga cakupan kemungkinan lebih rendah dari kenyataan.</li>
+      <li>Data rumah sakit dan data penduduk per kecamatan masih dilengkapi.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Daftar Fasilitas</h2>
+    <div class="geser"><table><tr><th>No</th><th>Nama</th><th>Jenis</th><th>Kecamatan</th><th>Koordinat</th></tr>
+<tr><td>1</td><td>Puskesmas Pamolokan</td><td>Puskesmas</td><td>Kota Sumenep</td><td>-7.00170, 113.87039</td></tr>
+<tr><td>2</td><td>Puskesmas Pandian</td><td>Puskesmas</td><td>Kota Sumenep</td><td>-7.00475, 113.85191</td></tr>
+<tr><td>3</td><td>Puskesmas Kalianget</td><td>Puskesmas</td><td>Kalianget</td><td>-7.03896, 113.90020</td></tr>
+<tr><td>4</td><td>Puskesmas Manding</td><td>Puskesmas</td><td>Manding</td><td>-6.95991, 113.86939</td></tr>
+<tr><td>5</td><td>Puskesmas Talango</td><td>Puskesmas</td><td>Talango</td><td>-7.06395, 113.95285</td></tr>
+<tr><td>6</td><td>Puskesmas Bluto</td><td>Puskesmas</td><td>Bluto</td><td>-7.10513, 113.81164</td></tr>
+<tr><td>7</td><td>Puskesmas Saronggi</td><td>Puskesmas</td><td>Saronggi</td><td>-7.08176, 113.82872</td></tr>
+<tr><td>8</td><td>Puskesmas Lenteng</td><td>Puskesmas</td><td>Lenteng</td><td>-7.03134, 113.78037</td></tr>
+<tr><td>9</td><td>Puskesmas Giliginting</td><td>Puskesmas</td><td>Giliginting</td><td>-7.19056, 113.89802</td></tr>
+<tr><td>10</td><td>Puskesmas Pragaan</td><td>Puskesmas</td><td>Pragaan</td><td>-7.11071, 113.66124</td></tr>
+<tr><td>11</td><td>Puskesmas Pasongsongan</td><td>Puskesmas</td><td>Pasongsongan</td><td>-6.88644, 113.66323</td></tr>
+<tr><td>12</td><td>Puskesmas Dasuk</td><td>Puskesmas</td><td>Dasuk</td><td>-6.89611, 113.80417</td></tr>
+<tr><td>13</td><td>Puskesmas Rubaru</td><td>Puskesmas</td><td>Rubaru</td><td>-6.95821, 113.75310</td></tr>
+<tr><td>14</td><td>Puskesmas Batang-Batang</td><td>Puskesmas</td><td>Batang Batang</td><td>-6.94730, 113.99864</td></tr>
+<tr><td>15</td><td>Puskesmas Batuputih</td><td>Puskesmas</td><td>Batuputih</td><td>-6.91573, 113.92148</td></tr>
+<tr><td>16</td><td>Puskesmas Dungkek</td><td>Puskesmas</td><td>Dungkek</td><td>-6.97687, 114.09399</td></tr>
+<tr><td>17</td><td>Puskesmas Gapura</td><td>Puskesmas</td><td>Gapura</td><td>-6.99755, 113.95927</td></tr>
+<tr><td>18</td><td>Puskesmas Guluk-Guluk</td><td>Puskesmas</td><td>Guluk-Guluk</td><td>-7.05559, 113.67416</td></tr>
+<tr><td>19</td><td>Puskesmas Batuan</td><td>Puskesmas</td><td>Batuan</td><td>-7.01159, 113.82770</td></tr>
+<tr><td>20</td><td>Puskesmas Gayam</td><td>Puskesmas</td><td>Gayam</td><td>-7.16477, 114.32995</td></tr>
+<tr><td>21</td><td>Puskesmas Nonggunong</td><td>Puskesmas</td><td>Nonggunong</td><td>-7.08001, 114.27925</td></tr>
+<tr><td>22</td><td>Puskesmas Raas</td><td>Puskesmas</td><td>Ra&#x27;as</td><td>-7.15288, 114.61453</td></tr>
+<tr><td>23</td><td>Puskesmas Masalembu</td><td>Puskesmas</td><td>Masalembu</td><td>-5.57204, 114.42251</td></tr>
+<tr><td>24</td><td>Puskesmas Arjasa</td><td>Puskesmas</td><td>Arjasa</td><td>-6.86097, 115.28607</td></tr>
+<tr><td>25</td><td>Puskesmas Kangayan</td><td>Puskesmas</td><td>Kangayan</td><td>-6.91840, 115.55959</td></tr>
+<tr><td>26</td><td>Puskesmas Ambunten</td><td>Puskesmas</td><td>Ambunten</td><td>-6.89243, 113.74186</td></tr>
+<tr><td>27</td><td>Puskesmas Ganding</td><td>Puskesmas</td><td>Ganding</td><td>-7.04072, 113.69027</td></tr>
+<tr><td>28</td><td>RSUD Dr. H. Moh. Anwar</td><td>Rumah Sakit</td><td>Kota Sumenep</td><td>-7.01558, 113.86423</td></tr>
+<tr><td>29</td><td>BHC Baghraf Health Care</td><td>Rumah Sakit</td><td>Batuan</td><td>-7.01583, 113.84532</td></tr>
+<tr><td>30</td><td>Puskesmas Sapeken</td><td>Puskesmas</td><td>Sapeken</td><td>-7.00376, 115.70724</td></tr>
+</table></div>
+  </section>
+
+  <section>
+    <h2>Unduh Data</h2>
+    <ul>
+<li><a href="fasilitas_gabungan.csv">fasilitas_gabungan.csv</a></li>
+<li><a href="fasilitas_gabungan.geojson">fasilitas_gabungan.geojson</a></li>
+<li><a href="tabel_kecamatan.csv">tabel_kecamatan.csv</a></li>
+<li><a href="hasil_nn_ringkas.csv">hasil_nn_ringkas.csv</a></li>
+<li><a href="hasil_cakupan.csv">hasil_cakupan.csv</a></li>
+<li><a href="hasil_nearest_neighbor.csv">hasil_nearest_neighbor.csv</a></li>
+<li><a href="buffer_puskesmas_2km.geojson">buffer_puskesmas_2km.geojson</a></li>
+<li><a href="buffer_puskesmas_5km.geojson">buffer_puskesmas_5km.geojson</a></li>
+<li><a href="buffer_rs_20km.geojson">buffer_rs_20km.geojson</a></li>
+<li><a href="service_area_1km.geojson">service_area_1km.geojson</a></li>
+<li><a href="ringkasan_analisis.txt">ringkasan_analisis.txt</a></li>
+<li><a href="data_manual_sumenep.csv">data_manual_sumenep.csv</a></li>
+
+    </ul>
+  </section>
+</main>
+<footer>Dibuat dengan Python di Termux. Peta dasar membutuhkan koneksi internet.</footer>
+</body>
+</html>
